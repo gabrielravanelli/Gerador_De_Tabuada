@@ -13,16 +13,16 @@ public class GeradorDeTabuada {
 		limite = 100; 
 				
 		Scanner scan = new Scanner(System.in);
-	    System.out.print("Digite qual tabuada você quer: ");
+	        System.out.print("Digite qual tabuada você quer: ");
 		tabuada = scan.nextInt();
 				
-        do {//Faça
+                do {//Faça
 	   	
-        	resultado  = tabuada * contador;
-        	System.out.println(tabuada + " x " + contador + " = " + resultado);
-        	contador ++;
+			resultado  = tabuada * contador;
+			System.out.println(tabuada + " x " + contador + " = " + resultado);
+			contador ++;
 		
-        }while(contador <= limite);//while = enquanto
+                }while(contador <= limite);//while = enquanto
 				
 		
 		
