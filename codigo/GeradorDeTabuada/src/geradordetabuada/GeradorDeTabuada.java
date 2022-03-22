@@ -18,7 +18,7 @@ public class GeradorDeTabuada {
 				
                 do {//Faça
 	   	
-			resultado  = tabuada * contador;
+		resultado  = tabuada * contador;
 			System.out.println(tabuada + " x " + contador + " = " + resultado);
 			contador ++;
 		
